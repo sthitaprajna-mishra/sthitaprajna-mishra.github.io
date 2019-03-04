@@ -1,0 +1,402 @@
+#logo{
+  float: left;
+  height: 100px;
+  width: 120px;
+  padding: 5px;
+  display: inline-block;
+}
+
+#logo_txt1{
+  float: left;
+  font-family: Gotham SSm A,Gotham SSm B,Helvetica,Arial,sans-serif;
+  padding: 2px;
+  margin: 20px 0 0 0;
+  font-size: 40px;
+  letter-spacing: -2px;
+  color: #e60000;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#logo_txt2{
+  float: left;
+  font-family: Gotham SSm A,Gotham SSm B,Helvetica,Arial,sans-serif;
+  font-size: 25px;
+  margin: 50px 5px 5px 5px;
+  padding: 30px 0 0 -80px;
+  letter-spacing: -1px;
+    color: #4d4d4d;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#up{
+  display: inline-block;
+}
+
+#nabh{
+  height: 80px;
+  width: 150px;
+  padding: 15px 0 0 80px;
+}
+
+#em{
+  padding: 0 0 15px 30px;
+  height: 60px;
+  width: 100px;
+}
+
+#line{
+  height: 80px;
+  width: 80px;
+  margin: 0 0 10px -5px;
+  display: inline-block;
+}
+
+#in{
+  float: right;
+  padding: 10px 0 0 10px;
+  font-size: 14px;
+}
+
+#in1{
+  float: right;
+  padding: 10px 10px 0 25px;
+  font-size: 14px;
+}
+
+#in2{
+  float: right;
+  padding: 10px 10px 0 0;
+  font-size: 14px;
+}
+
+#in3{
+  float: right;
+  padding: 10px 10px 0 0;
+  font-size: 14px;
+}
+
+#ct1{
+  font-family: Gotham SSm A,Gotham SSm B,Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  color: #e60000;
+}
+
+#c1{
+  font-family: Gotham SSm A,Gotham SSm B,Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  color: #e60000;
+}
+
+#ct2{
+  font-family: Gotham SSm A,Gotham SSm B,Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  color: #262626;
+}
+
+#c2{
+  font-family: Gotham SSm A,Gotham SSm B,Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  color: #262626;
+}
+
+#ct3{
+  font-family: Gotham SSm A,Gotham SSm B,Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  color: #e60000;
+}
+
+#c3{
+  font-family: Gotham SSm A,Gotham SSm B,Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  color: #e60000;
+}
+
+#ct4{
+  font-family: Gotham SSm A,Gotham SSm B,Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  color: #262626;
+}
+
+#c4{
+  font-family: Gotham SSm A,Gotham SSm B,Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  color: #262626;
+}
+
+#ct2:hover{
+  color: #ffcc00;
+}
+
+#c2:hover{
+  color: #ffcc00;
+}
+
+#ct4:hover{
+  color: #ffcc00;
+}
+
+#c4:hover{
+  color: #ffcc00;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  left: 93%;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px 0;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/*The pack of dots*/
+.pointers{
+  padding-left: 50px;
+  display: block;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #ffad33;
+  font-family: Arial, Gotham SSm A,Gotham SSm B,Helvetica,sans-serif;
+  font-size: 14px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 14px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Arial, Gotham SSm A,Gotham SSm B,Helvetica,sans-serif;
+}
+
+.dropdown1{
+  padding-left: 450px;
+}
+
+.dropdown1, .dropdown2, .dropdown3, .dropdown4 {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown1 .dropbtn1, .dropdown2 .dropbtn2, .dropdown3 .dropbtn3, .dropdown4 .dropbtn4 {
+  font-size: 14px;  
+  font-family: Arial, Gotham SSm A,Gotham SSm B,Helvetica,sans-serif;
+  border: none;
+  outline: none;
+  color: #262626;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  font-weight: 600;
+}
+
+.navbar a:hover, .dropdown1:hover .dropbtn1, .navbar a:hover, .dropdown2:hover .dropbtn2, .navbar a:hover, .dropdown3:hover .dropbtn3, .navbar a:hover, .dropdown4:hover .dropbtn4{
+  color: #ff3300;
+}
+
+.dropdown-content1, .dropdown-content2, .dropdown-content3, .dropdown-content4 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content1 a, .dropdown-content2 a, .dropdown-content3 a, .dropdown-content4 a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  background-color: #333333;
+}
+
+.dropdown-content1 a:hover, .dropdown-content2 a:hover, .dropdown-content3 a:hover, .dropdown-content4 a:hover {
+  background-color:#ffad33;
+  color: #000000;
+}
+
+.dropdown1:hover .dropdown-content1, .dropdown2:hover .dropdown-content2, .dropdown3:hover .dropdown-content3, .dropdown4:hover .dropdown-content4  {
+  display: block;
+}
+
+.welcome{
+  padding: 400px 200px 0 50px;
+}
+
+#one{
+  display: inline-block;
+  font-family: Arial, Gotham SSm A,Gotham SSm B,Helvetica,sans-serif;
+  color: #737373;
+  font-size: 45px;
+}
+
+#two{
+  display: inline-block;
+  font-family: Arial, Gotham SSm A,Gotham SSm B,Helvetica,sans-serif;
+  color: #ff9900;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+#three{
+  display: inline-block;
+  font-family: Arial, Gotham SSm A,Gotham SSm B,Helvetica,sans-serif;
+  color: #737373;
+  font-size: 45px;
+}
+
+#four{
+  display: inline-block;
+  font-family: Arial, Gotham SSm A,Gotham SSm B,Helvetica,sans-serif;
+  color: #ff9900;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.slideshow-container{
+  float: left;  
+  display: block;
+}
+
+.form{
+  float:right;
+  margin: 0 90px;
+  padding: 0 10px 0 10px;
+}
+
+.tab a{
+  font-family: 'Titillium Web', sans-serif;
+  text-decoration: none;
+  font-size: 40px;
+  color: #ffad33;
+  letter-spacing: -1px;
+}
+
+
+.submit {
+  margin: 0 0 10px 130px;
+  background: #ff1a1a;
+  border: red;
+  border-radius: 5%;
+  font-family: 'Titillium Web', sans-serif;
+  color: white;
+  font-size: 20px;
+  padding: 15px 65px 15px 65px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+ /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+}
+
+.submit:hover{
+  background: #666666;
+}
+
+.forgot a{
+  text-decoration: none;
+  float: right;
+  color: #262626;
+  font-weight: 600;
+}
+
+.forgot a:hover{
+  color: #ffad33;
+}
+
+#mail: focus{
+  background-color: lightblue;
+}
+
+.desc{
+  margin: 0 50px 0 50px;
+  display: inline-block;
+  font-family: Arial, Gotham SSm A,Gotham SSm B,Helvetica,sans-serif;
+  color: #404040;
+  font-size: 20px;
+}
+
+.end{
+  background-color: #0d0d0d;
+  font-family:  Arial, Gotham SSm A,Gotham SSm B,Helvetica,sans-serif;
+  color: #bfbfbf;
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 20px 0 20px 500px;
+}
